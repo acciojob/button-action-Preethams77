@@ -7,12 +7,12 @@ function App() {
   return (
     <div id="main" className="bg-pink">
       {isClicked && (
-        <p>
+        <p id="para">
           <h1> "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
 </h1>
         </p>
       )}
-      <button id="button" onClick={handleClick}>
+      <button id="click" onClick={handleClick}>
         Click me
       </button>
       // Do not alter the main div
