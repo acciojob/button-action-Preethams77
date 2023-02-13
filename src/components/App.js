@@ -8,7 +8,8 @@ function App() {
     <div id="main" className="bg-pink">
       {isClicked && (
         <p>
-          <h1>This is a paragraph</h1>
+          <h1> "Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy"
+</h1>
         </p>
       )}
       <button id="button" onClick={handleClick}>
